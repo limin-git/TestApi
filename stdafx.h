@@ -17,3 +17,16 @@
 #include <atlstr.h>
 
 // TODO: reference additional headers your program requires here
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <fstream>
+#include <vector>
+#include <map>
+#include <list>
+#include <set>
+#include <algorithm>
+#include <iomanip>
+#include <sapi.h>
+#include <stdlib.h>
+#include <conio.h>

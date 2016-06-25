@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "TestShellExecute.h"
 #include "TestSystemParametersInfo.h"
+#include "TestFindWindow.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -13,9 +14,14 @@ int _tmain(int argc, _TCHAR* argv[])
         TestShellExecute test;
     }
 
-    if ( 1 )
+    if ( 0 )
     {
         TestSystemParametersInfo test;
+    }
+
+    if ( 1 )
+    {
+        TestFindWindow test;
     }
 
 	return 0;
