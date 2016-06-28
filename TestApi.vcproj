@@ -179,6 +179,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\TestMultiByteToWideChar.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\TestMultiByteToWideChar.h"
+				>
+			</File>
+			<File
 				RelativePath=".\TestShellExecute.cpp"
 				>
 			</File>
