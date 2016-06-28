@@ -43,6 +43,7 @@
 				Name="VCCLCompilerTool"
 				AdditionalOptions="-Zm1024"
 				Optimization="0"
+				AdditionalIncludeDirectories="&quot;$(BOOST_HOME)&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -63,6 +64,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;$(BOOST_HOME)\stage\lib&quot;"
 				GenerateManifest="true"
 				GenerateDebugInformation="true"
 				SubSystem="1"
@@ -119,6 +121,7 @@
 				AdditionalOptions="-Zm1024"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
+				AdditionalIncludeDirectories="&quot;$(BOOST_HOME)&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -138,6 +141,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;$(BOOST_HOME)\stage\lib&quot;"
 				GenerateManifest="true"
 				GenerateDebugInformation="true"
 				SubSystem="1"
@@ -176,6 +180,10 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
+			<File
+				RelativePath=".\TestFindCloseChangeNotification.cpp"
+				>
+			</File>
 			<File
 				RelativePath=".\TestFindWindow.cpp"
 				>
@@ -228,6 +236,10 @@
 			</File>
 			<File
 				RelativePath=".\stdafx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TestFindCloseChangeNotification.h"
 				>
 			</File>
 			<File

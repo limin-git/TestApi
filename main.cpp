@@ -6,6 +6,7 @@
 #include "TestSystemParametersInfo.h"
 #include "TestMultiByteToWideChar.h"
 #include "TestFindWindow.h"
+#include "TestFindCloseChangeNotification.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -25,9 +26,14 @@ int _tmain(int argc, _TCHAR* argv[])
         TestMultiByteToWideChar test;
     }
 
-    if ( 1 )
+    if ( 0 )
     {
         TestFindWindow test;
+    }
+
+    if ( 1 )
+    {
+        TestFindCloseChangeNotification test;
     }
 
 	return 0;
