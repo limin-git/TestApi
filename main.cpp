@@ -11,6 +11,8 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+    std::ios_base::sync_with_stdio( false );
+
     if ( 0 )
     {
         TestShellExecute test;
