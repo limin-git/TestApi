@@ -200,6 +200,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\TestRegisterHotKey.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\TestRegisterHotKey.h"
+				>
+			</File>
+			<File
 				RelativePath=".\TestSendInput.cpp"
 				>
 			</File>

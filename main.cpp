@@ -7,6 +7,7 @@
 #include "TestMultiByteToWideChar.h"
 #include "TestFindWindow.h"
 #include "TestFindCloseChangeNotification.h"
+#include "TestRegisterHotKey.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -33,9 +34,14 @@ int _tmain(int argc, _TCHAR* argv[])
         TestFindWindow test;
     }
 
-    if ( 1 )
+    if ( 0 )
     {
         TestFindCloseChangeNotification test;
+    }
+
+    if ( 1 )
+    {
+        TestRegisterHotKey test;
     }
 
 	return 0;
