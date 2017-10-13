@@ -8,6 +8,7 @@
 #include "TestFindWindow.h"
 #include "TestFindCloseChangeNotification.h"
 #include "TestRegisterHotKey.h"
+#include "TestSuspendThread.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -39,9 +40,14 @@ int _tmain(int argc, _TCHAR* argv[])
         TestFindCloseChangeNotification test;
     }
 
-    if ( 1 )
+    if ( 0 )
     {
         TestRegisterHotKey test;
+    }
+
+    if ( 1 )
+    {
+        TestSuspendThread test;
     }
 
 	return 0;

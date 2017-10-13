@@ -31,3 +31,4 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <boost/thread.hpp>
+#include <boost/foreach.hpp>

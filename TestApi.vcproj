@@ -216,6 +216,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\TestSuspendThread.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\TestSystemParametersInfo.cpp"
 				>
 			</File>
@@ -263,6 +267,10 @@
 			</File>
 			<File
 				RelativePath=".\TestShellExecute.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TestSuspendThread.h"
 				>
 			</File>
 			<File
